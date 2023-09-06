@@ -6,9 +6,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     overflow-x: hidden;
+    background-size: auto;
 }
 header {
     background-image: url('teamwork-pictures-don5zvz7d1ip1ovb.jpg');
+    width: auto;
     height: 576px;
     position: relative;
     background-size: cover;
@@ -27,20 +29,20 @@ nav li {
     margin-right: 25px; 
 }
 .active {
-    color: #340109;
+    color: #FF044F;
     font-weight: bold;
   }
 nav a {
     text-decoration: none;
     color: white;
     padding: 7px;
-   
 }
+ul li :hover, ul li:active {text-decoration: underline;}
 
 .top_right {
     position: absolute;
     right: 25px;
-    top: 21px;
+    top: 12px;
     width: 142px;
     height: 54px;
     background-color: #6D0202;
@@ -58,41 +60,15 @@ main {
     flex: 1;
 }
 .vector {
-    width: 1370px;
-    height: 3px;
-    background-color: #ffffff;
-    transform: rotate(0deg);
+    block-size: 2000px;
+    width: 1268px;
+    border: solid white 3px;
     position: absolute;
+    left: 115px;
     top: 700px;
-    left: 70px;
+    position: center;
 }
-.vector2{
-    width: 3px;
-    height: 2022px;
-    background-color: #ffffff;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 70px;
-    top: 700px;
-  }
-.vector3 {
-    width: 1372px;
-    height: 3px;
-    background-color: #ffffff;
-    transform: rotate(0deg);
-    position: absolute;
-    top: 2720px;
-    left: 69px;
-}
-.vector4{
-    width: 3px;
-    height: 2023px;
-    background-color: #ffffff;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 1440px;
-    top: 700px;
-  }
+
 .about {
    font-family: 'tangerine', serif;
    font-size: 64px;
